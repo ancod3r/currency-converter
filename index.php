@@ -64,6 +64,7 @@
 </div>
 </div>
 <!-- <script>
+rajneesh
 $('document').ready(function() {
   $("#currency-form").on("submit", function(e){                       
     var data = $("#currency-form").serialize();                                                          
