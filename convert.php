@@ -7,7 +7,7 @@
 
     $curl = curl_init();
 	curl_setopt_array($curl, array(
-	    CURLOPT_URL => "https://free.currconv.com/api/v7/convert?q=" . $string . "&compact=ultra&apiKey=31738b933b31f7dbda54",
+	    CURLOPT_URL => "https://free.currconv.com/api/v7/convert?q=" . $string . "&compact=ultra&apiKey=166dc8efbd4931cfc0b4",
 	    CURLOPT_RETURNTRANSFER => 1
 	));
 	$response = curl_exec($curl);
@@ -31,6 +31,7 @@
 	echo "<br><br>";
 	echo '<span style="font-size: 30px;"> Converted Amount: ' . $total.  '</span>';
     
+	 // https://free.currconv.com/api/v7/convert?q=USD_PHP&compact=ultra&apiKey=166dc8efbd4931cfc0b4
 	// Another API Key- 58b86c51c9925887ca58
     // Check API Status - https://free.currencyconverterapi.com/
     // Get New API Key  - https://free.currencyconverterapi.com/free-api-key

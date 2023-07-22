@@ -1,39 +1,14 @@
 # Currency-Converter
-convert currencies all currency conversion included
+Convert Currencies - All currency conversion included
 
 ## Run Locally
 
-Clone the project
+Clone the project at `\xampp\htdocs`
 
 ```bash
-  git clone https://github.com/JackDustin/currency-converter.git
+  git clone https://github.com/ancod3r/currency-converter.git
 ```
 
-Go to the project directory
+Start [Xampp](https://www.apachefriends.org/download.html) - *Apache*
 
-```bash
-  cd currency-converter
-```
-
-Install xampp
-
-```bash
-  https://www.apachefriends.org/download.html
-```
-
-Start the server
-
-```bash
-  Run XAMPP Control Panel and Start Apache server
-```
-
-Move currency-converter to
-
-```bash
-    \xampp\htdocs folder 
-```
-
-Launch Browser
-```bash
-    http://localhost/currency-converter/ 
-```
+Open Url [Localhost](http://localhost/currency-converter/)
